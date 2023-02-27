@@ -16,6 +16,7 @@
     color: lighten ($color-button, 15%);  
     transition-property: ease-in;
   }
+  
   .default {
     background-color: $color-background1;
     &:hover {
