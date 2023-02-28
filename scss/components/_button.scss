@@ -50,7 +50,8 @@
     background-color: #fd7856;
     &:hover {
       background-color: lighten (#fd7856, 15%);
-      transition-property: ease-in-out;
+      transition-property: ease-in-out
+      ;
     }
   }
   
