@@ -13,14 +13,14 @@
   }
    
   .btn:hover {
-    color: lighten ($color-button, 15%);  
+    color: lighten($color-button, 15%);  
     transition-property: ease-in;
   }
   
   .default {
     background-color: $color-background1;
     &:hover {
-      background-color: lighten ($color-background1, 15%);
+      background-color: lighten($color-background1, 15%);
       transition-property: ease-in;
     }
   }
@@ -28,7 +28,7 @@
   .error {
     background-color: #e4757a;
     &:hover {
-      background-color: lighten (#e4757a, 15%);
+      background-color: lighten(#e4757a, 15%);
       transition-property: ease-in;
     }
   }
@@ -36,7 +36,7 @@
   .info {
     background-color: $color-background2;
     &:hover {
-      background-color: lighten ($color-background2, 15%);
+      background-color: lighten($color-background2, 15%);
       transition-property: ease-in;
     }
   }
@@ -44,7 +44,7 @@
   .success {
     background-color: #63cc82;
     &:hover {
-      background-color: lighten (#63cc82, 15%);
+      background-color: lighten(#63cc82, 15%);
       transition-property: ease-in;
     } 
   }
@@ -52,7 +52,7 @@
   .warning {
     background-color: #fd7856;
     &:hover {
-      background-color: lighten (#fd7856, 15%);
+      background-color: lighten(#fd7856, 15%);
       transition-property: ease-in;
     }
   }
